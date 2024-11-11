@@ -1,4 +1,11 @@
-import java.io.BufferedWriter;
+/**********************************************************************/
+/* Kaitlin Yen */
+/* Login ID: 016414437 */
+/* CS 3310, Fall 2024 */
+/* Programming Assignment 2 */
+/* Main Program Function: find anagrams and print them out in a file  */
+/**********************************************************************/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
