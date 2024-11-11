@@ -1,0 +1,6 @@
+What is the theoretical worst-case running time of the algorithm you implemented (i.e. in Θ-notation), expressed in terms of the number of words n in the input file? Justify your answer.
+
+For only the finding anagrams algorithm, the theoretical worst-case running time would include the running times of presorting the scanned word and searching for it in my defined anagram set.
+1. Presorting: I used Java Arrays.sort() function to presort each word input, which has a Θ(n log n) time complexity for n items.
+2. Search: I used a SortedMap (implementation of TreeMap) to store all words and anagrams. SortedMap.containsKey() has a worst-case Θ(log n) time complexity for n items.
+Adding these running times together results in Θ((n + 1) * log n) which is part of Θ(n log n) efficiency category.
